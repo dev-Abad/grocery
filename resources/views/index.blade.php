@@ -5,7 +5,7 @@
 @section('layout')
 <div class="container mt-4">
         <h2>Grocery List</h2>
-        <a href="{{ route('create') }}" class="btn btn-tertiary mb-3 text-bg-warning">Add New Item</a>
+        <a href="{{ route('create') }}" class="btn btn-tertiary mb-3 bg-success p-2 text-white bg-opacity-75">Add New Item</a>
         <table class="table">
             <thead>
                 <tr>

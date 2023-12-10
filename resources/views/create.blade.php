@@ -35,8 +35,8 @@
                 <label for="quantity">Quantity:</label>
                 <input type="number" class="form-control" id="quantity" name="quantity">
             </div><br>
-            <button type="submit" class="btn btn-tertiary mb-3 text-bg-warning">Add Item</button>
-            <a href="{{ route('index') }}" class="btn btn-tertiary mb-3 text-bg-warning" id="cancelBtn">Cancel</a>
+            <button type="submit" class="btn btn-tertiary mb-3 bg-success p-2 text-white bg-opacity-75">Add Item</button>
+            <a href="{{ route('index') }}" class="btn btn-tertiary mb-3 bg-success p-2 text-white bg-opacity-75" id="cancelBtn">Cancel</a>
         </form>
     </div>
 

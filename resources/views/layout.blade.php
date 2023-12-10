@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="{{asset('cssfile/style.css')}}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="body-bg">
 <div>
-<nav class="navbar navbar-expand-lg text-bg-warning p-3">
+<nav class="navbar navbar-expand-lg bg-success p-2 text-white bg-opacity-75">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Vital Basket Grocery Store</a>
     <link rel="stylesheet" href="{{asset('style/css/style.css')}}">
@@ -17,6 +17,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   </div>
+
 </nav>
     <div>
     @yield('layout')
