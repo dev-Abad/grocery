@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\groceryItemController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/', [groceryItemController::class, 'index'])->name('index');
+Route::get('/items/create', [groceryItemController::class, 'create'])->name('create');
+Route::post('/items', [groceryItemController::class, 'store'])->name('store');
